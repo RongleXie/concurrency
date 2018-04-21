@@ -1,5 +1,6 @@
 package com.ronglexie.concurrency.commonunsafe;
 
+import com.ronglexie.concurrency.annotation.UnThreadSafe;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.concurrent.CountDownLatch;
@@ -14,6 +15,7 @@ import java.util.concurrent.Semaphore;
  * @version 2018/4/21
  */
 @Slf4j
+@UnThreadSafe
 public class UnSafeStringBuilder {
 
 	/**
